@@ -7,7 +7,6 @@ public class Time25 {
         LocalDate timeNow = LocalDate.now();
         int yearNow = timeNow.getYear();
         System.out.println("nam hien tai la : " + yearNow);
-        Time18.isLeapYear(yearNow);
         if (Time18.isLeapYear(yearNow) == true) {
             System.out.println("la nam nhuan");
             System.out.println("thoi gian trong nam la 366 ngay");
